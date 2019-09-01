@@ -7,7 +7,7 @@ phases:
       - python -m unittest discover
   install:
     commands:
-artifacts:
-  files:
+# artifacts:
+#   files:
     # - template.yml
     # - packaged.yml
