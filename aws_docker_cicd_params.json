@@ -1,0 +1,38 @@
+[
+  {
+    "ParameterKey": "UserName",
+    "ParameterValue": "ramiaj"
+  },
+  {
+    "ParameterKey": "EnvironmentName",
+    "ParameterValue": "mysandbox"
+  },
+  {
+    "ParameterKey": "EmailAddress",
+    "ParameterValue": "jimmyramia@gmail.com"
+  },
+  {
+    "ParameterKey": "GitHubSourceRepo",
+    "ParameterValue": "https://github.com/jimmyramia/aws_docker_cicd.git"
+  },
+  {
+    "ParameterKey": "GitHubUserName",
+    "ParameterValue": "jimmyramia"
+  },
+  {
+    "ParameterKey": "RepoName",
+    "ParameterValue": "aws_docker_cicd"
+  },
+  {
+    "ParameterKey": "OAuthTokenArn",
+    "ParameterValue":"arn:aws:secretsmanager:us-east-1:656664007277:secret:GithubOauth-3L32Eg"
+  },
+  {
+    "ParameterKey": "OAuthSecretKeyName",
+    "ParameterValue": "github_oauth"
+  },
+  {
+    "ParameterKey": "CloudFormationRoleArn",
+    "ParameterValue": "arn:aws:iam::656664007277:role/rl_CloudFormation"
+  }
+]

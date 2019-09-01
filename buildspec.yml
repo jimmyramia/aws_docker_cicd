@@ -1,0 +1,13 @@
+version: 0.2
+phases:
+  pre_build:
+    commands:
+      - echo "[+] Running tests..."
+      - python -m compileall *
+      - python -m unittest discover
+  install:
+    commands:
+artifacts:
+  files:
+    # - template.yml
+    # - packaged.yml
